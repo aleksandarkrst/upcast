@@ -1,0 +1,89 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 80px;
+    color: black;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+h3, h4 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+}
+
+/* Navbar */
+.navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+    Transition:all 0.3s;
+	z-index: 1;
+    background-color: white;
+}
+
+.nav-link {
+	margin: 10px 20px;
+	padding-left: 30px;
+	text-align: center;
+}
+
+.logo-img {
+	width: 50px;
+	border-radius: 50%;
+}
+
+.upcast {
+	padding-top: 100px;
+	padding-left: 30px;
+}
+
+.container-fluid {
+	padding-top: 50px;
+	bottom: 50px;
+}
+
+.main {
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px; 
+	padding-top: 50px;
+	margin-top: 150px;
+}
+
+.about {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.episodes {
+	text-align: center;
+}
+
+.bottom-container {
+    position: relative;
+    padding: 50px 0 20px;
+    background-color: white;
+    text-align: center;
+    top: 150px;
+}
+
+.button-circle {
+	width: 45px;
+	height: 45px;
+	margin: auto 10px auto 10px;
+	font-size: 18px;
+}
