@@ -47,8 +47,27 @@ h3, h4 {
 }
 
 .upcast {
+	position: relative;
 	padding-top: 100px;
-	padding-left: 30px;
+	padding-left: 100px;
+}
+
+.insta {
+	border-radius: 30px;
+	padding: 15px 50px;
+	background-color: white;
+	border-width: 1px;
+	text-decoration: none;
+	box-shadow: 5px 10px 8px #888888;
+}
+
+.insta:hover {
+	background-color: orange;
+	transition: 0.3s;
+}
+
+img {
+	right: 100px;
 }
 
 .container-fluid {
@@ -80,6 +99,24 @@ h3, h4 {
 	top: 200px;
 }
 
+.myButton {
+	border-radius: 30px;
+	padding: 15px 50px;
+	background-color: white;
+	border-width: 1px;
+	text-decoration: none;
+	box-shadow: 5px 10px 8px #888888;
+}
+
+.myButton:hover {
+	background-color: orange;
+	transition: 0.3s;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
 .bottom-container {
     position: relative;
     padding: 50px 0 20px;
@@ -94,3 +131,4 @@ h3, h4 {
 	margin: auto 10px auto 10px;
 	font-size: 18px;
 }
+
