@@ -83,7 +83,7 @@ img {
 	margin-left: 20px;
 	margin-right: 20px; 
 	padding-top: 50px;
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
 .about {
@@ -104,8 +104,8 @@ img {
 .contact-us {
 	text-align: center;
 	position: relative;
-	height: 300px;
-	top: 200px;
+	height: 100px;
+	top: 150px;
 }
 
 .myButton {
@@ -131,7 +131,7 @@ img {
     padding: 50px 0 20px;
     background-color: white;
     text-align: center;
-    top: 700px;
+    top: 250px;
 }
 
 .button-circle {
@@ -145,12 +145,12 @@ img {
 	position: absolute;
 	top: 25px;
 	right: 10px;
-	width: 75%;
+	width: 60%;
 }
 
 .phone {
 	position: absolute;
 	top: 900px;
 	right: 200px;
-	width: 25%;
+	width: 20%;
 }
